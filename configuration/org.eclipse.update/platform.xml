@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1367482927313">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.eclipse.orion.server.search.feature" url="features/org.eclipse.orion.server.search.feature_1.0.0.v20121016-2005-7c7y-FC-QIWVGz-fxCmw8F/" version="1.0.0.v20121016-2005-7c7y-FC-QIWVGz-fxCmw8F">
+		</feature>
+		<feature id="maqetta.libraries.feature" url="features/maqetta.libraries.feature_10.0.0.master-6--B13SWNJ/" version="10.0.0.master-6--B13SWNJ">
+		</feature>
+		<feature id="org.eclipse.orion.base.feature" url="features/org.eclipse.orion.base.feature_1.0.0.v20121016-1843-9I9BG4SFiv5_Lz0hpeZyMQTY44/" version="1.0.0.v20121016-1843-9I9BG4SFiv5_Lz0hpeZyMQTY44">
+		</feature>
+		<feature id="org.eclipse.orion.server.authentication.feature" url="features/org.eclipse.orion.server.authentication.feature_1.0.0.v20121016-1843-37H7I9oB5896FC84INHA/" version="1.0.0.v20121016-1843-37H7I9oB5896FC84INHA">
+		</feature>
+		<feature id="maqetta.zazl.feature" url="features/maqetta.zazl.feature_1.0.0.master-777p7m8bDmoLj/" version="1.0.0.master-777p7m8bDmoLj">
+		</feature>
+		<feature id="org.eclipse.orion.client.feature" url="features/org.eclipse.orion.client.feature_2.0.0.v20130128-2117-7A--DZRDKYDRLX6MlQZ/" version="2.0.0.v20130128-2117-7A--DZRDKYDRLX6MlQZ">
+		</feature>
+		<feature id="maqetta.server.feature" url="features/maqetta.server.feature_10.0.0.master-7W--9Pqfi0a/" version="10.0.0.master-7W--9Pqfi0a">
+		</feature>
+		<feature id="org.eclipse.orion" url="features/org.eclipse.orion_2.0.0.v20130118-1514-6--7WWbkiwkosD2-n7Zxg9tbhNkE/" version="2.0.0.v20130118-1514-6--7WWbkiwkosD2-n7Zxg9tbhNkE">
+		</feature>
+		<feature id="maqetta.client.feature" url="features/maqetta.client.feature_10.0.0.master-4--9Pqfi0a/" version="10.0.0.master-4--9Pqfi0a">
+		</feature>
+		<feature id="org.eclipse.orion.server.feature" url="features/org.eclipse.orion.server.feature_1.0.0.v20121016-1843-7Y7b7uFKyA4urNElc5CTX5jD_p-d/" version="1.0.0.v20121016-1843-7Y7b7uFKyA4urNElc5CTX5jD_p-d">
+		</feature>
+	</site>
+</config>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8' ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Navigating and searching</title>
+		<link type="text/css" rel="stylesheet" href="../../../../../book.css"/>
+	</head>
+	<body>
+		<h1 id="Navigating_and_searching">Navigating and searching</h1>
+		<h2 id="Searching_for_files">Searching for files</h2>
+		<p>Type Ctrl+Shift+F to search for a file with a given name. Clicking a match will open a page for the file as if you had clicked it in the Navigator folder list. In many cases, this opens the 
+			<a href="../../../../../Orion/Documentation/User_Guide/Reference/Coding_page/Coding-page.html" title="Orion/Documentation/User_Guide/Reference/Coding_page">Coding page</a> on that file. If there is only a single match, simply press 'Enter' to open that file.
+		</p>
+		<h2 id="Searching_for_text_within_files">Searching for text within files</h2>
+		<p>Type search terms in the search box in the upper right corner of the title area of any page to search for terms across all files in the folder you are viewing. Matches will be displayed in the 
+			<a href="../../../../../Orion/Documentation/User_Guide/Reference/Search_Results_page/Search-Results-page.html" title="Orion/Documentation/User_Guide/Reference/Search_Results_page">Search Results page</a>.
+		</p>
+		<p>Both literal and wild card search are supported. For example, "fo*ar" will hit all the files containing "foobar" while "fo??ar" will hit the same files. Please also note that the search ignores case.</p>
+		<p>
+			<img title="Search bar" alt="Search bar" border="0" src="images/Search_starting_search.png"/>
+		</p>
+		<p>The drop-down menu next to the search bar allows you to configure search options, and browse recent or saved searches.</p>
+		<p>Read the 
+			<a href="../../../../../Orion/Documentation/User_Guide/Reference/Search_Results_page/Search-Results-page.html" title="Orion/Documentation/User_Guide/Reference/Search_Results_page">Search Results page</a> documentation for more details on how to browse, filter, and process search results.
+		</p>
+		<h2 id="Search_and_replace_across_files">Search and replace across files</h2>
+		<ol>
+			<li>Enter the search term to be replaced in the global search bar on any page.</li>
+			<li>In the 
+				<a href="../../../../../Orion/Documentation/User_Guide/Reference/Search_Results_page/Search-Results-page.html" title="Orion/Documentation/User_Guide/Reference/Search_Results_page">Search Results page</a>, click on <b>Replace</b> on the tool bar to bring up the slide out. 
+				<img title="Invoking replace" alt="Invoking replace" border="0" src="images/Search_invoke_replace.png"/>
+			</li>
+			<li>Type the replacing string and press <b>Preview Changes</b>. You can also press <b>Enter</b> to replace without preview, or press Esc to cancel the replace.</li>
+			<li>Browse the changes, and use the check boxes to select the files and matches you want to replace. Note that if there are multiple matches in a single line, it will be <b>split</b> to multiple lines where each line represents one match. There are 3 levels of check box.
+				<br/> 
+				<img title="Filtering matches" alt="Filtering matches" border="0" src="images/Search_replace_filtering.png"/> 
+				<ul>
+					<li>Overall: this allows you to toggle all the files and matches on the current page.</li>
+					<li>File level: this allows you to toggle all the matches in a file.</li>
+					<li>Match level: this allows you to toggle each match.</li>
+				</ul>
+			</li>
+			<li>Once you have selected all the matches that you want to replace, click on Commit on the tool bar. This will write all the replacement on the server. </li>
+			<li>After the changes are committed, the replace page displays a list of files indicating the success or failure of the replacement. It also reports on how many matches were replaced on each file. You can click on any file to see the new content in a new tab. If some body else has changed the same file while you are replacing, a failure is generated and you have to refresh the page to redo it. 
+				<img title="Search replace report" alt="Search replace report" border="0" src="images/Search_replace_report.png"/> 
+			</li>
+			<li>If there is more than one page of search results, click on <b>Next Page</b> or <b>Previous Page</b> to repeat the process on the next set of results.</li>
+		</ol>
+		<h2 id="Example:_refactor_a_function_name">Example: refactor a function name</h2>
+		<p>Lets say there is a function called <b>foo</b> that is used in 60 files. User <b>A</b> creates a new function called <b>bar</b> and wants to replace the function name in 5 files. Meanwhile, user <b>B</b> modified and saved one of the files. The steps below describes the complete workflow:</p>
+		<ol>
+			<li>User A searches on keyword <b>foo</b>. In the first result page, there are 3 files that user A wants to replace.</li>
+			<li>User A clicks on <b>Replace</b> and types <b>bar</b> and presses Enter.</li>
+			<li>User A selects the 3 files and relative matches that will be replaced.</li>
+			<li>User A compares and confirms the differences between the original and replaced lines.</li>
+			<li>User A commits the new contents of the 3 files to the server.</li>
+			<li>All the 3 files are written successfully indicated by the report.</li>
+			<li>User A replaces the next page by selecting the remaining 2 files and relative matches.</li>
+			<li>User B modifies one of the 2 files and saves it.</li>
+			<li>User A commits the replacement.</li>
+			<li>One of the 2 files is reported written failure because it was modified during the replacing.</li>
+			<li>User A refreshes the page and replaces the <b>failed</b> file again.</li>
+			<li>User A commits the replacement successfully.</li>
+			<li><b>Optional:</b> To undo the changes, user A 
+				<a href="../../../../../Orion/Documentation/User_Guide/Reference/Git_Status_page/Git-Status-page.html#Reverting_a_group_of_unstaged_changes" title="Orion/Documentation/User_Guide/Reference/Git_Status_page#Reverting_a_group_of_unstaged_changes">checks out</a> the changes in git status page.
+			</li>
+		</ol>
+		<h2 id="Updating_this_document">Updating this document</h2>
+		<p>This document is maintained in a collaborative wiki.  If you wish to update or modify this document please visit 
+
+			<a href="http://wiki.eclipse.org/Orion/Documentation/User_Guide/Tasks/Navigating_and_searching" target="orion_external">http://wiki.eclipse.org/Orion/Documentation/User_Guide/Tasks/Navigating_and_searching</a>
+		</p>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.orion.server.authentication.feature"
+      label="%featureName"
+      version="1.0.0.v20121016-1843-37H7I9oB5896FC84INHA"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.orion.server.feature" version="0.1.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.cyberneko.html"
+         download-size="0"
+         install-size="0"
+         version="1.9.14.v201105210654"/>
+
+   <plugin
+         id="org.openid4java"
+         download-size="0"
+         install-size="0"
+         version="0.9.5.v201105210655"/>
+
+   <plugin
+         id="org.eclipse.orion.server.authentication"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20121031-1839"
+         unpack="false"/>
+
+</feature>

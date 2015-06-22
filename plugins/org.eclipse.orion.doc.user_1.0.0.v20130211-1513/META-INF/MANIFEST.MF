@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/orion/
+ org.eclipse.orion.server.git;path="doc/org.eclipse.orion.doc.user";ta
+ g=v20130211-1513
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Version: 1.0.0.v20130211-1513
+Bundle-Localization: bundle
+Bundle-Name: %Bundle-Name
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.orion.doc.user;singleton:=true
+
+

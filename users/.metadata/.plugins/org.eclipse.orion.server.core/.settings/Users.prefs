@@ -1,0 +1,13 @@
+A/Id=A
+A/Name=a
+A/SiteConfigurations/A/Id=A
+A/UserName=95a7cf01f0f54
+A/UserRights=[{"Method"\:15,"Uri"\:"/users/A"},{"Method"\:15,"Uri"\:"/workspace/95a7cf01f0f54"},{"Method"\:15,"Uri"\:"/workspace/95a7cf01f0f54/*"},{"Method"\:15,"Uri"\:"/file/95a7cf01f0f54"},{"Method"\:15,"Uri"\:"/file/95a7cf01f0f54/*"}]
+A/UserRightsVersion=3
+A/Workspaces=[{"LastModified"\:1434955552797,"Id"\:"95a7cf01f0f54"}]
+anonymous/Id=anonymous
+anonymous/Name=Anonymous User
+anonymous/UserName=anonymous
+anonymous/UserRights=[{"Method"\:15,"Uri"\:"/users/anonymous"}]
+anonymous/UserRightsVersion=3
+eclipse.preferences.version=1

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Eclipse-SourceReferences: scm:git:git://github.com/maqetta/maqetta.git
+ ;path="zazl/org.dojotoolkit.optimizer.amd.fragment"
+Fragment-Host: org.dojotoolkit.optimizer.amd;bundle-version="0.3.2"
+Bundle-Version: 1.0.0.master
+Bundle-Name: Fragment
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.dojotoolkit.optimizer.amd.fragment;singleton:
+ =true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

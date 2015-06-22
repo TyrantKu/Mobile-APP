@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Eclipse-SourceReferences: scm:git:git://github.com/maqetta/maqetta.git
+ ;path="zazl/dependencies/org.json.js"
+Bundle-Version: 1.0.0
+Bundle-Name: Json
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.json.js
+
+

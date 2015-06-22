@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: maqetta.server.configurator,maqetta.server.configurato
+ r.servlet
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: configurator.jar
+Eclipse-BundleShape: dir
+Bundle-Name: %Bundle-Name
+Bundle-Localization: bundle
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: maqetta.core.server;bundle-version="1.0.0",maqetta.ser
+ ver.orion;bundle-version="1.0.0"
+Eclipse-SourceReferences: scm:git:git://github.com/maqetta/maqetta.git
+ ;path="maqetta.server.configurator"
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Version: 10.0.0
+Bundle-ManifestVersion: 2
+Bundle-Activator: maqetta.server.configurator.ConfiguratorActivator
+Import-Package: javax.servlet;version="2.6.0",javax.servlet.http;versi
+ on="2.6.0",org.osgi.framework;version="1.7.0"
+Bundle-SymbolicName: maqetta.server.configurator;singleton:=true
+
+

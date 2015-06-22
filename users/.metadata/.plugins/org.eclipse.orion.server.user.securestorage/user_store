@@ -1,0 +1,11 @@
+#Equinox secure storage version 1.0
+#Mon Jun 22 14:45:52 CST 2015
+/users/A/email=\t,YUBnbWFpbC5jb20\=
+/users/A/password=org.eclipse.equinox.security.noModule\tbO4VDJlSYw4\=,/hcHfRUmsRQ\=
+/users/A/login=\t,OTVhN2NmMDFmMGY1NA\=\=
+org.eclipse.equinox.security.preferences.version=1
+org.eclipse.equinox.security.preferences.keyFactory=PBEWithMD5AndDES
+/users/A/name=\t,YQ\=\=
+/users/A/profile/general/lastlogintimestamp=\t,MTQzNDk1NTU1MjEzMQ\=\=
+org.eclipse.equinox.security.preferences.cipher=PBEWithMD5AndDES
+/users/A/email_confirmation=\t,MTQzNDk1NTU1MjExNi0wLjYyMjYwMjQzMjQ5MzIwMw\=\=

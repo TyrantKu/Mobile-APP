@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.html.dom,org.apache.xerces.dom,org.apache.x
+ erces.dom.events,org.apache.xerces.impl,org.apache.xerces.impl.dtd,or
+ g.apache.xerces.impl.dtd.models,org.apache.xerces.impl.dv,org.apache.
+ xerces.impl.dv.util,org.apache.xerces.impl.dv.xs,org.apache.xerces.im
+ pl.io,org.apache.xerces.impl.msg,org.apache.xerces.impl.validation,or
+ g.apache.xerces.impl.xpath,org.apache.xerces.impl.xpath.regex,org.apa
+ che.xerces.impl.xs,org.apache.xerces.impl.xs.identity,org.apache.xerc
+ es.impl.xs.models,org.apache.xerces.impl.xs.opti,org.apache.xerces.im
+ pl.xs.traversers,org.apache.xerces.impl.xs.util,org.apache.xerces.jax
+ p.datatype,org.apache.xerces.parsers,org.apache.xerces.util,org.apach
+ e.xerces.xni,org.apache.xerces.xni.grammars,org.apache.xerces.xni.par
+ ser,org.apache.xerces.xs,org.apache.xerces.xs.datatypes,org.apache.xm
+ l.serialize,org.cyberneko.html,org.cyberneko.html.filters,org.cyberne
+ ko.html.parsers,org.cyberneko.html.xercesbridge
+Eclipse-SourceReferences: scm:git:git://github.com/maqetta/maqetta.git
+ ;path="zazl/dependencies/org.cyberneko.html"
+Bundle-ClassPath: nekohtml.jar,xercesMinimal.jar
+Bundle-Version: 1.9.15
+Bundle-Name: NekoHTML
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.cyberneko.html
+
+
